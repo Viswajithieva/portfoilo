@@ -1,0 +1,127 @@
+/* .certificate-card {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.certificate-card img {
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.centener {
+    padding: 20px;
+    text-align: justify;
+    margin-left: 280px;
+    margin-top: -220px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.certificate-card1 img {
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.certificate-card3 img{
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top: 150px;
+} */
+.certificate-card {
+    max-width: 900px;
+    margin: 30px auto;
+    background: transparent;
+    border-radius: 12px;
+    border: 3px solid #0ff;
+    box-shadow: 10px 3px 20px #0ff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.certificate-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /* keeps aspect ratio without stretching */
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+.centener {
+    flex: 1;
+}
+
+.centener h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.centener p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Modal for full view */
+.image-modal {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #ccc;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .certificate-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .certificate-img img {
+        width: 100%;
+        height: auto;
+    }
+}
