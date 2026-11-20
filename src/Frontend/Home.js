@@ -1,5 +1,4 @@
 import './Home.css';
-import { Link } from 'react-router-dom';
 import va from './image/va.jpg';
 function Home() {
   return (

@@ -25,7 +25,6 @@ function Project() {
                 <img src={IC} alt="Income calcuater" />
             </div>
             <div className="centener">
-                <h1></h1>
                 <h1>Income Calculator</h1>
                 <p>A simple, interactive web application built using HTML, CSS, and JavaScript to help users quickly calculate their total income based on daily, weekly, or monthly earnings. The tool features a clean and responsive UI, real-time calculations as values are entered, and clear output formatting for easy understanding. This project showcases DOM manipulation, event handling, and basic arithmetic operations in JavaScript, along with a user-friendly layout created with CSS.
 
